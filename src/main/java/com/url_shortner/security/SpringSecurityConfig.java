@@ -59,7 +59,7 @@ public class SpringSecurityConfig {
                                 .requestMatchers("/api/auth/**").permitAll()
                                 .requestMatchers("/api/urls/**").authenticated()
                                 .requestMatchers("/api/{shortUrl}/**").permitAll()
-                                .anyRequest().authenticated()
+                                .anyRequest().permitAll()
 
                 );
 
