@@ -4,7 +4,6 @@ import com.url_shortner.dto.UrlMappingDTO;
 import com.url_shortner.models.UrlMapping;
 import com.url_shortner.models.User;
 import com.url_shortner.repository.UrlMappingRepository;
-import com.url_shortner.repository.UserRepository;
 import com.url_shortner.utility.ShortCodeGenerator;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
